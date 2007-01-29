@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>4C370F34-FF4A-4430-AF3B-B671A5572231</string>
+			<string>FDCD5152-F910-4612-8768-5C829E3392B9</string>
+			<string>42F36A2D-E9B9-43EC-806E-7D7FCECB4DE2</string>
+			<string>AF6BC7A1-5D09-4BCD-B9F0-38E62FB82AC3</string>
+			<string>E43B0727-2200-4023-B40B-BC8D78A9761E</string>
+			<string>BC0DD267-BFDC-4A33-88EB-4CA1AB46AF7B</string>
+			<string>B58F3CBF-17A2-4B42-AE21-A43056A50F91</string>
+			<string>EEA3D8AD-83C5-4B8C-BA4B-E6A5D8C88DFA</string>
+			<string>6755654F-0D58-466D-90AA-EF7A095D4842</string>
+			<string>B39F0639-D387-4301-866A-B134C5ADF4A0</string>
+			<string>DE0BCCCC-8DBE-4A63-936F-5C71E83C48D4</string>
+			<string>586BF309-7540-473F-AFE9-C0C7219D8CF5</string>
+			<string>AB936E03-44A4-47A9-8CB1-E90814407EFC</string>
+			<string>C2006F18-E51F-4D19-9DF3-4A71DE41A023</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>ZopePlone</string>
+	<key>ordering</key>
+	<array>
+		<string>4C370F34-FF4A-4430-AF3B-B671A5572231</string>
+		<string>FDCD5152-F910-4612-8768-5C829E3392B9</string>
+		<string>42F36A2D-E9B9-43EC-806E-7D7FCECB4DE2</string>
+		<string>AF6BC7A1-5D09-4BCD-B9F0-38E62FB82AC3</string>
+		<string>E43B0727-2200-4023-B40B-BC8D78A9761E</string>
+		<string>BC0DD267-BFDC-4A33-88EB-4CA1AB46AF7B</string>
+		<string>B58F3CBF-17A2-4B42-AE21-A43056A50F91</string>
+		<string>EEA3D8AD-83C5-4B8C-BA4B-E6A5D8C88DFA</string>
+		<string>6755654F-0D58-466D-90AA-EF7A095D4842</string>
+		<string>B39F0639-D387-4301-866A-B134C5ADF4A0</string>
+		<string>5DAADDEA-B349-4355-A1D8-5364CD49B1BB</string>
+		<string>9F7A1438-DDB3-4D39-948A-19E058C094A3</string>
+		<string>88732A9C-1142-4424-9C03-4706E9262283</string>
+		<string>D0F9BB77-AB80-4815-9B81-9D886A32CAB3</string>
+		<string>DE0BCCCC-8DBE-4A63-936F-5C71E83C48D4</string>
+		<string>C2006F18-E51F-4D19-9DF3-4A71DE41A023</string>
+		<string>586BF309-7540-473F-AFE9-C0C7219D8CF5</string>
+		<string>AB936E03-44A4-47A9-8CB1-E90814407EFC</string>
+	</array>
+	<key>uuid</key>
+	<string>9C79C9F2-14C3-4C78-A618-FB9D18F10381</string>
+</dict>
+</plist>
