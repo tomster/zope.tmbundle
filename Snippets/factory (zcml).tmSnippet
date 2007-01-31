@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>&lt;${1}factory
+    component="${2}"
+    ${3:description="${4}"}
+/&gt;
+</string>
 	<key>name</key>
-	<string>hash comment newline</string>
+	<string>factory</string>
 	<key>scope</key>
-	<string>source.python
-comment.line.number-sign.python</string>
+	<string>text.zcml</string>
+	<key>tabTrigger</key>
+	<string>&lt;</string>
 	<key>uuid</key>
-	<string>4BCAE470-492A-41D8-BE59-C9F0B2EDF7F0</string>
+	<string>27612757-642A-4BCA-ABD5-C9B61B3820D3</string>
 </dict>
 </plist>

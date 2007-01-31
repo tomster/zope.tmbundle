@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>i18n:${1:translate}="${2}"${3}</string>
 	<key>name</key>
-	<string>hash comment newline</string>
+	<string>i18n</string>
 	<key>scope</key>
-	<string>source.python
-comment.line.number-sign.python</string>
+	<string>punctuation.definition.tag.xml</string>
+	<key>tabTrigger</key>
+	<string>i18n</string>
 	<key>uuid</key>
-	<string>4BCAE470-492A-41D8-BE59-C9F0B2EDF7F0</string>
+	<string>6588C5F4-B38E-4C14-A842-14928D499983</string>
 </dict>
 </plist>

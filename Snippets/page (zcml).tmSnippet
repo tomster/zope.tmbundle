@@ -3,14 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>import pdb ; pdb.set_trace( )$0</string>
+	<string>&lt;${1}page
+    name="${2}"
+    ${3:template="${4}"}
+    ${5:class="${6}"}
+    ${7:permission="${8}"}
+/&gt;
+</string>
 	<key>name</key>
-	<string>set_trace</string>
+	<string>page</string>
 	<key>scope</key>
-	<string>source.python</string>
+	<string>text.zcml</string>
 	<key>tabTrigger</key>
-	<string>trace</string>
+	<string>&lt;</string>
 	<key>uuid</key>
-	<string>043C3AF8-8D87-45F1-BAAB-DA60290128CB</string>
+	<string>5B2BF311-473E-4810-ACFD-CA62436ABAC1</string>
 </dict>
 </plist>

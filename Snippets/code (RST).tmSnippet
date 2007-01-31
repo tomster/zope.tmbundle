@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>&gt;&gt;&gt; </string>
 	<key>name</key>
-	<string>hash comment newline</string>
+	<string>code (RST)</string>
 	<key>scope</key>
-	<string>source.python
-comment.line.number-sign.python</string>
+	<string>text.restructuredtext</string>
+	<key>tabTrigger</key>
+	<string>&gt;</string>
 	<key>uuid</key>
-	<string>4BCAE470-492A-41D8-BE59-C9F0B2EDF7F0</string>
+	<string>5A949930-AA5F-4DFB-A584-31B8829AE594</string>
 </dict>
 </plist>
