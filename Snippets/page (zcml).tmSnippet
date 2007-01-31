@@ -4,10 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>&lt;${1}page
-    name="${2}"
-    ${3:template="${4}"}
-    ${5:class="${6}"}
-    ${7:permission="${8}"}
+    ${2:for="${3}"}
+    ${4:class="${5}"}
+    ${6:layer="${7}"}
+    permission="${8}"
+    ${9:allowed_interface="${10}"}
+    ${11:allowed_attributes="${12}"}
 /&gt;
 </string>
 	<key>name</key>
