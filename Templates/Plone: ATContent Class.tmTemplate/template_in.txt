@@ -1,0 +1,30 @@
+
+__author__ = ''
+__docformat__ = 'plaintext'
+
+from Products.Archetypes.public import *
+from Products.ATContentTypes.content.schemata import ATContentTypeSchema
+from Products.ATContentTypes.content.schemata import finalizeATCTSchema
+from Products.ATContentTypes.content.base import ATCTContent
+from Products.ATContentTypes.content.base import registerATCT
+
+schema = ATContentTypeSchema.copy() + Schema((
+
+
+
+    ))
+    
+finalizeATCTSchema(schema)
+
+class MyNewType(ATCTContent):
+    """
+    
+    """
+    schema = schema
+    archetype_name = ''
+    content_icon = ''
+    default_view = ''
+    _at_rename_after_creation  = True
+    
+
+registerATCT(MyNewType, PROJECTNAME)

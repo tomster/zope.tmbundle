@@ -1,0 +1,32 @@
+<html xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      i18n:domain="plone">
+<body>
+<div metal:define-macro="portlet">
+
+<dl class="portlet" id="">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+
+    </dd>
+
+    <dd class="portletItem even">
+
+    </dd>
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+</body>
+</html>
