@@ -8,7 +8,7 @@
 
     <dt class="portletHeader">
         <span class="portletTopLeft"></span>
-
+            
         <span class="portletTopRight"></span>
     </dt>
 
