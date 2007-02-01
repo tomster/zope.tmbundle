@@ -4,20 +4,20 @@
 <dict>
 	<key>content</key>
 	<string>StringField('$1',
-              required=${2:False},
-              searchable=${3:True},
-              widget=${4:StringWidget}(
-                          label="$5",
-                          description="$6"
-                          )
-              ),
+        required=${2:False},
+        searchable=${3:True},
+        widget=${4:StringWidget}(
+                label="$5",
+                description="$6"
+                ),
+        ),
 </string>
 	<key>name</key>
-	<string>AT Widgets String</string>
+	<string>AT Fields String</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-	<string>atw</string>
+	<string>atf</string>
 	<key>uuid</key>
 	<string>808C39E1-268A-452C-9E6C-D62E0A3F83F4</string>
 </dict>

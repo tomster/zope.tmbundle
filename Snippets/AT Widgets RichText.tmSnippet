@@ -4,23 +4,23 @@
 <dict>
 	<key>content</key>
 	<string>TextField('$1',
-          required=${2:False},
-          searchable=${3:True},
-          primary=${4:True},
-          default_output_type = 'text/x-html-safe',
-          widget = RichWidget(
-                    label = "$5",
-                    description = "$6",
-                    )
+        required=${2:False},
+        searchable=${3:True},
+        primary=${4:True},
+        default_output_type = 'text/x-html-safe',
+        widget = RichWidget(
+                label = "$5",
+                description = "$6",
+                ),
         ),
 
 </string>
 	<key>name</key>
-	<string>AT Widgets RichText</string>
+	<string>AT Fields RichText</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-	<string>atw</string>
+	<string>atf</string>
 	<key>uuid</key>
 	<string>660770BD-0DFA-478C-817F-0F59FEDCE3C9</string>
 </dict>
