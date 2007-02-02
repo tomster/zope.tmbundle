@@ -9,7 +9,7 @@
 	<key>foldingStopMarker</key>
 	<string>\*\*/|^\s*\}</string>
 	<key>name</key>
-	<string>zcml</string>
+	<string>ZCML</string>
 	<key>patterns</key>
 	<array>
 		<dict>
