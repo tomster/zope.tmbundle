@@ -16,6 +16,12 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>match</key>
+			<string>(^\s*&gt;&gt;&gt;|\.\.\. )\s*\n</string>
+			<key>name</key>
+			<string>source.python.embedded.doctest.doubleline</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>#python</string>
 		</dict>
@@ -45,7 +51,7 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>text.restructuredtext</string>
+					<string>source.python.embedded.doctest</string>
 				</dict>
 			</dict>
 			<key>end</key>
