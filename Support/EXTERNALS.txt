@@ -1,1 +1,2 @@
 pdbtextmatesupport  https://svn.zitc.de/svn/zope/misc/pdbtextmatesupport/trunk/
+docutils    svn://svn.berlios.de/docutils/trunk/docutils
