@@ -104,12 +104,6 @@
 					<key>match</key>
 					<string>(.*)(:|\\)(.*)($\n?)</string>
 				</dict>
-				<dict>
-					<key>match</key>
-					<string>.*</string>
-					<key>name</key>
-					<string>source.python.embedded.doctest</string>
-				</dict>
 			</array>
 		</dict>
 	</dict>
