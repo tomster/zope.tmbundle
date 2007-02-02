@@ -8,29 +8,21 @@
 	<string>#!/usr/bin/env python
 import sys, os
 
-l = sys.stdin.read()
-indent = l.find('"') + 1
-if indent == 0:
-	indent = len(l) - len(l.lstrip())
-
-index = int(os.environ['TM_LINE_INDEX'])
-sys.stdout.write("%s\n%s$0%s" % (l[:index], ' ' * indent, l[index:])) 
+sys.stdout.write("")
 </string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string></string>
+	<string></string>
 	<key>name</key>
-	<string>indent</string>
+	<string>doctest delete prompt</string>
 	<key>output</key>
-	<string>insertAsSnippet</string>
+	<string>replaceSelectedText</string>
 	<key>scope</key>
-	<string>string.quoted.double.xml</string>
-	<key>tabTrigger</key>
-	<string>ret</string>
+	<string>source.python.embedded.doctest.doubleline</string>
 	<key>uuid</key>
-	<string>FD5D2B64-F480-41CB-90F5-774EABD8EE85</string>
+	<string>7EBDCD8F-E1F0-49AF-8C71-C0CD8D556C26</string>
 </dict>
 </plist>
