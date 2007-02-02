@@ -13,8 +13,10 @@ indent = l.find('"') + 1
 if indent == 0:
 	indent = len(l) - len(l.lstrip())
 
-sys.stdout.write(l)
+index = int(os.environ['TM_LINE_INDEX'])
+sys.stdout.write(l[:index])
 sys.stdout.write("\n%s" % (' ' * indent))
+sys.stdout.write(l[index:])
 
 #l = STDIN.readline
 #print l[0..-2]+"\n%s$0\""%(' '*(l[0..-2].index('"')))
