@@ -26,8 +26,6 @@ sys.stdout.write(l[index:])
 	<string>line</string>
 	<key>input</key>
 	<string>selection</string>
-	<key>keyEquivalent</key>
-	<string></string>
 	<key>name</key>
 	<string>indent</string>
 	<key>output</key>
