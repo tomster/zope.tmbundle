@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>i18n</string>
 	<key>scope</key>
-	<string>punctuation.definition.tag.xml</string>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
 	<string>i18n</string>
 	<key>uuid</key>
