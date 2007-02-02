@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+import sys, os
+
+l = sys.stdin.read()
+indent = l.find('"') + 1
+if indent == 0:
+	indent = len(l) - len(l.lstrip())
+
+sys.stdout.write(l)
+sys.stdout.write("\n%s" % (' ' * indent))
+
+#l = STDIN.readline
+#print l[0..-2]+"\n%s$0\""%(' '*(l[0..-2].index('"')))
+#print l + "\n" + ' ' * (l[0..-2].index('=') + 2)
+#print "\n l" + l[0..-2].index('=')</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>indent</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>string.quoted.double.xml</string>
+	<key>tabTrigger</key>
+	<string>ret</string>
+	<key>uuid</key>
+	<string>FD5D2B64-F480-41CB-90F5-774EABD8EE85</string>
+</dict>
+</plist>
