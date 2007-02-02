@@ -83,21 +83,26 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.continuation.line.python.doctest</string>
+							<string>source.python.embedded.doctest</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>invalid.illegal.unexpected-text.python</string>
+							<string>punctuation.separator.continuation.line.python.doctest</string>
 						</dict>
 						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>invalid.illegal.unexpected-text.python</string>
+						</dict>
+						<key>4</key>
 						<dict>
 							<key>name</key>
 							<string>source.python.embedded.doctest.continuation.start</string>
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(:|\\)(.*)($\n?)</string>
+					<string>(.*)(:|\\)(.*)($\n?)</string>
 				</dict>
 				<dict>
 					<key>match</key>

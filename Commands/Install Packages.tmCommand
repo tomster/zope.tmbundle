@@ -6,30 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Install “Zope Helper Tools”"
-
-# javascript which calls setup.py (by calling out to the shell)
-cat &lt;&lt;EOF
-&lt;script&gt;
-function installZopeHelpers () {
-  var cmd = TextMate.system(
-    "{ " + 
-    " echo 'Installing PyFlakes' ; " + 
-    " echo '===================' ; " + 
-    " cd '$TM_BUNDLE_SUPPORT/pyflakes-0.2.1'" +
-    " &amp;&amp; python setup.py install ; " + 
-    " echo ; echo ; echo 'Installing PdbSupport' ; " + 
-    " echo '=====================' ; " + 
-    "cd '$TM_BUNDLE_SUPPORT/pdbtextmatesupport' &amp;&amp; python setup.py install ;" +
-    " } 2&gt;&amp;1",
-     null);
-  var info = document.getElementById("info");
-  info.innerHTML = "&lt;p&gt;Installation results:&lt;/p&gt;";
-  var res = document.getElementById("result");
-  res.innerHTML = "&lt;pre&gt;" + cmd.outputString + "&lt;/pre&gt;";
-}
-&lt;/script&gt;
-EOF
+html_header "Install “Zope Helper Packages”"
 
 # documentation which links to the script above
 Markdown.pl &lt;&lt;"EOF"
@@ -38,22 +15,31 @@ Markdown.pl &lt;&lt;"EOF"
 
 The Zope bundle relies on a number of external helper packages that need to be installed in your local site-packages (i.e. they can't just be included in the bundle itself.)
 
+This page will prompt you for your password in order to perform the necessary steps.
+
 Currently we ship with the following products:
 
  * Andi Zeidler's [pdbtextmatesupport](https://svn.zitc.de/trac/pdbtextmatesupport/)
  * Divmod's [pyflakes](http://www.divmod.org/projects/pyflakes)
-
+ * [Docutils](http://docutils.sourceforge.net/)
 
 ## Installation
 
-&lt;div id="info"&gt;
-    &lt;p&gt;To install the packages, simply click on the button below:&lt;/p&gt;
+&lt;div id="result"&gt;
+    
+EOF
+
+osascript -e 'do shell script "sh \"$TM_BUNDLE_SUPPORT/bin/install-packages.sh\"" with administrator privileges'
+
+
+Markdown.pl &lt;&lt;"EOF"
+
 &lt;/div&gt;
 
-&lt;div id="result"&gt;&lt;input type="Button" value="Install helper apps" onClick="installZopeHelpers();"&gt;&lt;/div&gt;
-
+Check the output above to make sure everything went smoothly.
 
 EOF
+
 
 html_footer</string>
 	<key>input</key>
