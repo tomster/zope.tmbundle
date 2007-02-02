@@ -13,7 +13,7 @@
 	<key>name</key>
 	<string>try block (RST)</string>
 	<key>scope</key>
-	<string>text.restructuredtext</string>
+	<string>text.restructuredtext.doctest</string>
 	<key>tabTrigger</key>
 	<string>try</string>
 	<key>uuid</key>

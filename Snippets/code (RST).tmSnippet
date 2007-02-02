@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>code (RST)</string>
 	<key>scope</key>
-	<string>text.restructuredtext</string>
+	<string>text.restructuredtext.doctest</string>
 	<key>tabTrigger</key>
 	<string>&gt;</string>
 	<key>uuid</key>

@@ -63,6 +63,8 @@
 					<string>source.python.embedded.doctest</string>
 				</dict>
 			</dict>
+			<key>name</key>
+			<string>source.python.embedded.doctest</string>
 			<key>patterns</key>
 			<array>
 				<dict>
