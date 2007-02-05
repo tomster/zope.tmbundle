@@ -8,7 +8,7 @@
 	<key>keyEquivalent</key>
 	<string></string>
 	<key>name</key>
-	<string>doctest newline</string>
+	<string>DocTest: newline</string>
 	<key>scope</key>
 	<string>source.python.embedded.doctest</string>
 	<key>uuid</key>

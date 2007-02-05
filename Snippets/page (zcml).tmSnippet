@@ -13,7 +13,7 @@
 /&gt;
 </string>
 	<key>name</key>
-	<string>page</string>
+	<string>ZCML: page</string>
 	<key>scope</key>
 	<string>text.zcml</string>
 	<key>tabTrigger</key>

@@ -17,7 +17,7 @@ sys.stdout.write("\n")
 	<key>keyEquivalent</key>
 	<string></string>
 	<key>name</key>
-	<string>doctest last line</string>
+	<string>DocTest: last line</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>

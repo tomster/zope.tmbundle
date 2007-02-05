@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>i18n:${1:translate}="${2}"${3}</string>
 	<key>name</key>
-	<string>i18n</string>
+	<string>ZPT: i18n</string>
 	<key>scope</key>
 	<string>text.xml</string>
 	<key>tabTrigger</key>

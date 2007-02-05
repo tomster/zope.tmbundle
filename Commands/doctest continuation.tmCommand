@@ -27,7 +27,7 @@ sys.stdout.write("%s\n%s... %s%s" % (l[:index],' ' * indent, ' ' * code_indent, 
 	<key>keyEquivalent</key>
 	<string></string>
 	<key>name</key>
-	<string>doctest continuation</string>
+	<string>DocTest: continuation</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>

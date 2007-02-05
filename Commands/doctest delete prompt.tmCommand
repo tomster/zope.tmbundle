@@ -17,7 +17,7 @@ sys.stdout.write("")
 	<key>keyEquivalent</key>
 	<string></string>
 	<key>name</key>
-	<string>doctest delete prompt</string>
+	<string>DocTest: delete prompt</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>

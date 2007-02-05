@@ -11,7 +11,7 @@
 ...     import pdb; pdb.set_trace( )
 &gt;&gt;&gt; # original line: </string>
 	<key>name</key>
-	<string>try block (RST)</string>
+	<string>DocTest: try block</string>
 	<key>scope</key>
 	<string>text.restructuredtext.doctest</string>
 	<key>tabTrigger</key>

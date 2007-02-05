@@ -1,13 +1,14 @@
 <!--  ${TM_NEW_FILE_BASENAME}  
-	 Created by ${TM_USERNAME} on ${TM_DATE}.
+     Created by ${TM_USERNAME} on ${TM_DATE}.
 -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en-US" lang="en-US"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="${1:plone}">
 
-<html metal:use-macro="here/main_template/macros/master">
-	<body>
-		<div metal:fill-slot="main">
-
-
-
-		</div>
-	</body>
+    <body>
+        $0
+    </body>
 </html>

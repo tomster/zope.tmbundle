@@ -23,7 +23,7 @@ sys.stdout.write("%s... %s%s$0" % (' ' * indent, ' ' * (index - indent), l[index
 	<key>keyEquivalent</key>
 	<string>	</string>
 	<key>name</key>
-	<string>doctest indent</string>
+	<string>DocTest: indent</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>

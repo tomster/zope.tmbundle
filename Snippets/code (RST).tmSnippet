@@ -6,7 +6,7 @@
 	<string>
     &gt;&gt;&gt; </string>
 	<key>name</key>
-	<string>code (RST)</string>
+	<string>DocTest: indented code</string>
 	<key>scope</key>
 	<string>text.restructuredtext.doctest</string>
 	<key>tabTrigger</key>

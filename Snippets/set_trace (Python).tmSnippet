@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>import pdb ; pdb.set_trace( )$0</string>
 	<key>name</key>
-	<string>set_trace</string>
+	<string>Python: set_trace</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>

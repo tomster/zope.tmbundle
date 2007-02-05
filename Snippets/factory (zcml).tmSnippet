@@ -11,7 +11,7 @@
 /&gt;
 </string>
 	<key>name</key>
-	<string>factory</string>
+	<string>ZCML: factory</string>
 	<key>scope</key>
 	<string>text.zcml</string>
 	<key>tabTrigger</key>
