@@ -4,10 +4,15 @@
 <dict>
 	<key>mainMenu</key>
 	<dict>
+		<key>excludedItems</key>
+		<array>
+			<string>FD5D2B64-F480-41CB-90F5-774EABD8EE85</string>
+		</array>
 		<key>items</key>
 		<array>
 			<string>9C670249-C790-470F-AA84-B8C2C938BD59</string>
 			<string>A74DC8DD-1A3B-454C-8E4C-C36208374D8A</string>
+			<string>4C370F34-FF4A-4430-AF3B-B671A5572231</string>
 			<string>------------------------------------</string>
 			<string>B01D313A-FB7F-43E6-A29F-D897931CF21A</string>
 			<string>33B4CC09-0A11-4BB5-B550-3FA68DBB1DD8</string>
@@ -15,13 +20,6 @@
 			<string>73D5A35F-DD58-4C83-9F58-F52D8F117895</string>
 			<string>C4F4EA44-5F63-40B8-A237-1C5FD6B0A6B1</string>
 			<string>5A0EAA31-46B0-4D44-AB38-F51DF9B24EA4</string>
-			<string>4C370F34-FF4A-4430-AF3B-B671A5572231</string>
-			<string>BC0DD267-BFDC-4A33-88EB-4CA1AB46AF7B</string>
-			<string>B58F3CBF-17A2-4B42-AE21-A43056A50F91</string>
-			<string>EEA3D8AD-83C5-4B8C-BA4B-E6A5D8C88DFA</string>
-			<string>E8C5569C-A046-4188-A68F-A87ED53F704C</string>
-			<string>35920F33-D3A6-41A6-8C28-FDFC83E6B75E</string>
-			<string>FD5D2B64-F480-41CB-90F5-774EABD8EE85</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -48,6 +46,12 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>E8C5569C-A046-4188-A68F-A87ED53F704C</string>
+					<string>35920F33-D3A6-41A6-8C28-FDFC83E6B75E</string>
+					<string>E4CB1256-A722-4C17-BED8-60CCF503334C</string>
+					<string>7EBDCD8F-E1F0-49AF-8C71-C0CD8D556C26</string>
+					<string>18750F5F-619F-4D97-85F0-602FAC3C1162</string>
+					<string>BD0B81C3-E69A-4180-A490-C0093A483DD0</string>
 					<string>DE0BCCCC-8DBE-4A63-936F-5C71E83C48D4</string>
 					<string>5A949930-AA5F-4DFB-A584-31B8829AE594</string>
 				</array>
@@ -86,6 +90,9 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>BC0DD267-BFDC-4A33-88EB-4CA1AB46AF7B</string>
+					<string>B58F3CBF-17A2-4B42-AE21-A43056A50F91</string>
+					<string>EEA3D8AD-83C5-4B8C-BA4B-E6A5D8C88DFA</string>
 					<string>FDCD5152-F910-4612-8768-5C829E3392B9</string>
 					<string>42F36A2D-E9B9-43EC-806E-7D7FCECB4DE2</string>
 					<string>AF6BC7A1-5D09-4BCD-B9F0-38E62FB82AC3</string>

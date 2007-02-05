@@ -21,7 +21,7 @@ EOF
 	<key>keyEquivalent</key>
 	<string>@r</string>
 	<key>name</key>
-	<string>run current doctest</string>
+	<string>Run current doctest</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
