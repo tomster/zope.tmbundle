@@ -17,11 +17,11 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>text.html</string>
+			<string>text.xml</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>text.xml</string>
+			<string>text.xml.strict</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
