@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;${1:metal:block} metal:use-macro="here/${2:global_sections}/macros/${3:portal_tabs}"&gt;${0:$TM_SELECTED_TEXT}&lt;/$1&gt;
+	<string>&lt;metal:${1:block} metal:use-macro="context/@@${2:macrotemplate}/${3:macroname}"&gt;${0:$TM_SELECTED_TEXT}&lt;/metal:$1&gt;
 </string>
 	<key>name</key>
 	<string>metal:use-macro</string>
