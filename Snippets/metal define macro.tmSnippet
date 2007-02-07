@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>metal:define-macro</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.html.zpt</string>
 	<key>tabTrigger</key>
 	<string>taldm</string>
 	<key>uuid</key>

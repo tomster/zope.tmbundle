@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>tal:condition</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.html.zpt</string>
 	<key>tabTrigger</key>
 	<string>talco</string>
 	<key>uuid</key>
