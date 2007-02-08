@@ -13,7 +13,7 @@
 	<key>name</key>
 	<string>ZCML: factory</string>
 	<key>scope</key>
-	<string>text.zcml</string>
+	<string>text.xml.zcml</string>
 	<key>tabTrigger</key>
 	<string>&lt;</string>
 	<key>uuid</key>

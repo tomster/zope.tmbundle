@@ -3,41 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array/>
-	<key>foldingStartMarker</key>
-	<string>/\*\*|\{\s*$</string>
-	<key>foldingStopMarker</key>
-	<string>\*\*/|^\s*\}</string>
+	<array>
+		<string>zcml</string>
+	</array>
 	<key>name</key>
 	<string>ZCML</string>
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>match</key>
-			<string>\b(if|while|for|return)\b</string>
-			<key>name</key>
-			<string>keyword.control.untitled</string>
+			<key>include</key>
+			<string>text.xml</string>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>"</string>
-			<key>end</key>
-			<string>"</string>
-			<key>name</key>
-			<string>string.quoted.double.untitled</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>match</key>
-					<string>\\.</string>
-					<key>name</key>
-					<string>constant.character.escape.untitled</string>
-				</dict>
-			</array>
+			<key>include</key>
+			<string>text.xml.strict</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.zcml</string>
+	<string>text.xml.zcml</string>
 	<key>uuid</key>
 	<string>03D7B447-9B4B-4694-A46A-DAFBEF619594</string>
 </dict>
