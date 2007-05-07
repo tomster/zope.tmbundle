@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>dir=$( dirname "$TM_FILEPATH" )
+out=$( pyflakes "$TM_FILEPATH" | sed "s,^$dir/,," )
+echo "&lt;em&gt; validating syntax for $TM_FILEPATH: &lt;/em&gt; &lt;br/&gt;"
+if [ -z "$out" ]; then
+    echo "no errors found... :)"
+else
+    echo "&lt;pre&gt;"
+    echo $out
+    echo "&lt;/pre&gt;"
+fi</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^V</string>
+	<key>name</key>
+	<string>Validate Syntax (pyflakes)</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>uuid</key>
+	<string>D444F486-B185-4866-83C9-C19DB24D85B1</string>
+</dict>
+</plist>
