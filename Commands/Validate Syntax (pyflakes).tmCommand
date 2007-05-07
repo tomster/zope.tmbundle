@@ -12,7 +12,7 @@ if [ -z "$out" ]; then
     echo "no errors found... :)"
 else
     echo "&lt;pre&gt;"
-    echo $out
+    echo "$out"
     echo "&lt;/pre&gt;"
 fi</string>
 	<key>input</key>
