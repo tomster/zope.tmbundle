@@ -6,6 +6,7 @@
 	<array>
 		<string>rolemap.xml</string>
 		<string>catalog.xml</string>
+		<string>skins.xml</string>
 	</array>
 	<key>name</key>
 	<string>Generic Setup</string>
