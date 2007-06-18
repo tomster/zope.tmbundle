@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>from Products.CMFPlone.interfaces import IPloneSiteRoot
+from Products.GenericSetup import EXTENSION, profile_registry
+
+profile_registry.registerProfile(
+    '${1:name}',
+    '${2:title}',
+    '${3:description}',
+    '${4:profiles/default}',
+    ${5:product='${6}'},
+    ${7:profile_tpe=${8:EXTENSION}},
+    ${9:for_=${10:IPloneSiteRoot}})
+</string>
+	<key>name</key>
+	<string>Generic Setup: register profile</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>registerProfile</string>
+	<key>uuid</key>
+	<string>4838EB61-AA69-4ED5-AFF9-79CFFAC0AD14</string>
+</dict>
+</plist>
