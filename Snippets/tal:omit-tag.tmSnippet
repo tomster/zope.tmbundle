@@ -6,11 +6,9 @@
 	<string>tal:omit-tag="${1:}$0"</string>
 	<key>name</key>
 	<string>tal:omit-tag</string>
-	<key>scope</key>
-	<string>text.html.zpt</string>
 	<key>tabTrigger</key>
 	<string>talo</string>
 	<key>uuid</key>
-	<string>EEA3D8AD-83C5-4B8C-BA4B-E6A5D8C88DFA</string>
+	<string>356AB95E-E6AA-4489-B15C-2ACDA81A054C</string>
 </dict>
 </plist>
