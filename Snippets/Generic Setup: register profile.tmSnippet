@@ -12,7 +12,7 @@ profile_registry.registerProfile(
     '${3:description}',
     '${4:profiles/default}',
     ${5:product='${6}'},
-    ${7:profile_tpe=${8:EXTENSION}},
+    ${7:profile_type=${8:EXTENSION}},
     ${9:for_=${10:IPloneSiteRoot}})
 </string>
 	<key>name</key>
