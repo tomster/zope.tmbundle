@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>DateTimeField('$1',
+	<string>    atapi.DateTimeField(
+        '$1',
         required=${2:False},
         searchable=${3:False},
         default_method=DateTime,
         languageIndependent=True,
-        widget = CalendarWidget(
-                label="$4",
-                description= "$5",
-                ),
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.CalendarWidget(
+            label=_(u"$4"),
+            description=_(u"$5")
         ),
-</string>
+    ),</string>
 	<key>name</key>
 	<string>AT Fields DateTime</string>
 	<key>scope</key>

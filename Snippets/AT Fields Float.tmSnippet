@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>FloatField('$1',
+	<string>    atapi.FloatField(
+        '$1',
         required=${2:False},
-        widget=DecimalWidget(
-                label="$3",
-                description="$4"
-                ),
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.DecimalWidget(
+            label=_(u"$3"),
+            description=_(u"$4")
         ),
-</string>
+    ),</string>
 	<key>name</key>
 	<string>AT Fields Float</string>
 	<key>scope</key>

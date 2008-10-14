@@ -3,20 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>  &lt;${1}factory
-      component="${2}"
-      ${3:description="${4}"}
-      ${5:id="${6}"}
-      ${7:title="${8}"}
+	<string>  &lt;genericsetup:upgradeStep
+      title="$1"
+      description="$2"
+      source="$3"
+      destination="$4"
+      handler="$5"
+      sortkey="$6"
+      profile="$7"
       /&gt;
 </string>
 	<key>name</key>
-	<string>ZCML: factory</string>
+	<string>ZCML: GenericSetup upgrade step</string>
 	<key>scope</key>
 	<string>text.xml.zcml</string>
 	<key>tabTrigger</key>
-	<string>&lt;</string>
+	<string>&lt;upgrade</string>
 	<key>uuid</key>
-	<string>27612757-642A-4BCA-ABD5-C9B61B3820D3</string>
+	<string>4D1456C9-20A9-46E2-B19A-EA3FE57F42EF</string>
 </dict>
 </plist>

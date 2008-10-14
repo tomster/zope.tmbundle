@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>StringField('$1',
+	<string>    atapi.StringField(
+        '$1',
         required=${2:False},
         searchable=${3:True},
-        widget=${4:StringWidget}(
-                label="$5",
-                description="$6"
-                ),
-        ),
-</string>
+        storage=atapi.AnnotationStorage(),
+        widget=${4:atapi.StringWidget}(
+            label=_(u"$5"),
+            description=_(u"$6")
+         ),
+    ),</string>
 	<key>name</key>
 	<string>AT Fields String</string>
 	<key>scope</key>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
 	<string>&lt;configure
- xmlns:${1:zope}="http://namespaces.zope.org/zope"
- xmlns:${2:browser}="http://namespaces.zope.org/browser"
- &gt;
+    xmlns:${1:zope}="http://namespaces.zope.org/zope"
+    xmlns:${2:browser}="http://namespaces.zope.org/browser"&gt;
 ${3}
-&lt;/configure&gt;</string>
+&lt;/configure&gt;
+</string>
 	<key>name</key>
 	<string>ZCML: configure</string>
 	<key>scope</key>
