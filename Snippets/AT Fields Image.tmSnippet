@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>    atapi.ImageField(
-        '$1',
-        required=${2:False},
-        storage=atapi.AnnotationStorage(),
-        widget=atapi.ImageWidget(
-            label=_(u"$3"),
-            description=_(u"$4")
-        ),
-    ),</string>
+	<string>atapi.ImageField(
+    '$1',
+    required=${2:False},
+    storage=atapi.AnnotationStorage(),
+    widget=atapi.ImageWidget(
+        label=_(u"$3"),
+        description=_(u"$4")
+    ),
+),</string>
 	<key>name</key>
 	<string>AT Fields Image</string>
 	<key>scope</key>

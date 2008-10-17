@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>  &lt;${1}factory
-      component="${2}"
-      ${3:description="${4}"}
-      ${5:id="${6}"}
-      ${7:title="${8}"}
-      /&gt;
+	<string>&lt;${1}factory
+    component="${2}"
+    ${3:description="${4}"}
+    ${5:id="${6}"}
+    ${7:title="${8}"}
+    /&gt;
 </string>
 	<key>name</key>
 	<string>ZCML: factory</string>

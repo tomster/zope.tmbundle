@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>    atapi.ReferenceField(
-        '$1',
-        allowed_types=('$2'),
-        storage=atapi.AnnotationStorage(),
-        widget=atapi.ReferenceWidget(
-            label=_(u"$3"),
-            description=_(u"$4")
-        ),
-    ),</string>
+	<string>atapi.ReferenceField(
+    '$1',
+    allowed_types=('$2'),
+    storage=atapi.AnnotationStorage(),
+    widget=atapi.ReferenceWidget(
+        label=_(u"$3"),
+        description=_(u"$4")
+    ),
+),</string>
 	<key>name</key>
 	<string>AT Fields Reference</string>
 	<key>scope</key>

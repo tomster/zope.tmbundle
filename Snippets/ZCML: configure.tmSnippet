@@ -6,7 +6,7 @@
 	<string>&lt;configure
     xmlns:${1:zope}="http://namespaces.zope.org/zope"
     xmlns:${2:browser}="http://namespaces.zope.org/browser"&gt;
-${3}
+  ${3}
 &lt;/configure&gt;
 </string>
 	<key>name</key>

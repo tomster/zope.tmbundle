@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>  &lt;genericsetup:upgradeStep
-      title="$1"
-      description="$2"
-      source="$3"
-      destination="$4"
-      handler="$5"
-      sortkey="$6"
-      profile="$7"
-      /&gt;
+	<string>&lt;genericsetup:upgradeStep
+    title="$1"
+    description="$2"
+    source="$3"
+    destination="$4"
+    handler="$5"
+    sortkey="$6"
+    profile="$7"
+    /&gt;
 </string>
 	<key>name</key>
 	<string>ZCML: GenericSetup upgrade step</string>

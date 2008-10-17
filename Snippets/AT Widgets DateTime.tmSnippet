@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>    atapi.DateTimeField(
-        '$1',
-        required=${2:False},
-        searchable=${3:False},
-        default_method=DateTime,
-        languageIndependent=True,
-        storage=atapi.AnnotationStorage(),
-        widget=atapi.CalendarWidget(
-            label=_(u"$4"),
-            description=_(u"$5")
-        ),
-    ),</string>
+	<string>atapi.DateTimeField(
+    '$1',
+    required=${2:False},
+    searchable=${3:False},
+    default_method=DateTime,
+    languageIndependent=True,
+    storage=atapi.AnnotationStorage(),
+    widget=atapi.CalendarWidget(
+        label=_(u"$4"),
+        description=_(u"$5")
+    ),
+),</string>
 	<key>name</key>
 	<string>AT Fields DateTime</string>
 	<key>scope</key>

@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>    atapi.TextField(
-        '$1',
-        required=${2:False},
-        searchable=${3:True},
-        primary=${4:True},
-        default_output_type='text/x-html-safe',
-        storage=atapi.AnnotationStorage(),
-        widget=atapi.RichWidget(
-            label=_(u"$5"),
-            description=_(u"$6")
-        ),
-    ),</string>
+	<string>atapi.TextField(
+    '$1',
+    required=${2:False},
+    searchable=${3:True},
+    primary=${4:True},
+    default_output_type='text/x-html-safe',
+    storage=atapi.AnnotationStorage(),
+    widget=atapi.RichWidget(
+        label=_(u"$5"),
+        description=_(u"$6")
+    ),
+),</string>
 	<key>name</key>
 	<string>AT Fields RichText</string>
 	<key>scope</key>
