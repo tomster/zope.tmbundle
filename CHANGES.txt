@@ -25,3 +25,5 @@ claytron sprinted on ZopeSkel at the Plone Conference 2008 sprint:
 - reordered the snippets to be grouped a bit better 
 
 Thanks to hexsprite and limi for the motivation to fix it up :)
+
+Begun at 2007 Snowsprint by tomster, witsch, opetznik and berndroessel
