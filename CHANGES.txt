@@ -5,6 +5,8 @@ CHANGES
 vX.X? (Unreleased)
 ------------------
 
+tomster added a doctest browser preview command
+
 claytron sprinted on ZopeSkel at the Plone Conference 2008 sprint:
 
 - Bringing the bundle up to date with some best practices. The AT field snippets will work in conjunction with ZopeSkel a little better now. 
