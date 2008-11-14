@@ -27,11 +27,13 @@ fi</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>^@V</string>
+	<string>^V</string>
 	<key>name</key>
-	<string>Validate syntax for doctest (pyflakes)</string>
+	<string>DocTest: Validate syntax (pyflakes)</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.restructuredtext.doctest</string>
 	<key>uuid</key>
 	<string>4E845CA5-67A0-468A-9FC7-2B9A51234B1B</string>
 </dict>
