@@ -17,11 +17,13 @@ fi</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^@V</string>
+	<string>^V</string>
 	<key>name</key>
 	<string>Python: Validate syntax for selected files (pyflakes)</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.python</string>
 	<key>uuid</key>
 	<string>329AC7B6-8E58-4DB5-B2C5-E9D6103CF9B8</string>
 </dict>
