@@ -34,9 +34,12 @@ if [[ "$url" =~ ^http://[^:]*:([0-9]*)/ ]]; then
   kill -SIGUSR1 $pid
   sleep 1
   osascript -e '
-    tell application "System Events"
-      tell process "Safari"
-        keystroke "r" using {command down}
+    tell application "Safari"
+      activate
+      tell application "System Events"
+        tell process "Safari"
+          keystroke "r" using {command down}
+        end tell
       end tell
     end tell'
 fi
