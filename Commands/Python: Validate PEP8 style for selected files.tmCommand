@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>out=$( echo $TM_SELECTED_FILES | xargs pep8.py --repeat | perl -lpe 's,^(.*/)([^/]*):([0-9]*):([0-9]*): ,&lt;a href="txmt://open?url=file://$1$2&amp;line=$3&amp;column=$4"&gt;$2:$3:$4&lt;/a&gt;: ,' )
+echo "&lt;em&gt; validating PEP8 style for $TM_SELECTED_FILES: &lt;/em&gt; &lt;br/&gt;"
+if [ -z "$out" ]; then
+    echo "no complaints... :)"
+else
+    echo "&lt;pre&gt;"
+    echo "$out"
+    echo "&lt;/pre&gt;"
+fi</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^@8</string>
+	<key>name</key>
+	<string>Python: Validate PEP8 style for selected files</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>uuid</key>
+	<string>37F092E4-BCD4-40D0-8858-1C389AF25837</string>
+</dict>
+</plist>
