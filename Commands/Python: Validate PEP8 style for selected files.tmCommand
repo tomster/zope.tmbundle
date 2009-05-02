@@ -5,7 +5,8 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>out=$( echo $TM_SELECTED_FILES | xargs pep8.py --repeat | perl -lpe 's,^(.*/)([^/]*):([0-9]*):([0-9]*): ,&lt;a href="txmt://open?url=file://$1$2&amp;line=$3&amp;column=$4"&gt;$2:$3:$4&lt;/a&gt;: ,' )
+	<string>PEPCMD="$TM_BUNDLE_SUPPORT/pep8.py"
+out=$( echo $TM_SELECTED_FILES | xargs "$PEPCMD" --repeat | perl -lpe 's,^(.*/)([^/]*):([0-9]*):([0-9]*): ,&lt;a href="txmt://open?url=file://$1$2&amp;line=$3&amp;column=$4"&gt;$2:$3:$4&lt;/a&gt;: ,' )
 echo "&lt;em&gt; validating PEP8 style for $TM_SELECTED_FILES: &lt;/em&gt; &lt;br/&gt;"
 if [ -z "$out" ]; then
     echo "no complaints... :)"
