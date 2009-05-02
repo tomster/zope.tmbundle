@@ -9,7 +9,6 @@
 import os
 import subprocess
 tm_file = os.environ['TM_FILEPATH']
-
 pyflakes_cmd = '%s %s' % ('pyflakes', tm_file)
 out = subprocess.Popen(pyflakes_cmd,
                        shell=True,
@@ -21,7 +20,10 @@ if not out[1].find('command not found') &gt; 0:
     else:
         out = ''.join(out[1])
     out = out.replace('%s:' % tm_file, '')
-    print out
+else:
+    out = "Warning: No pyflakes found!"
+
+print out
 </string>
 	<key>input</key>
 	<string>none</string>
