@@ -5,6 +5,11 @@ CHANGES
 vX.X? (Unreleased)
 ------------------
 
+2009-08-08 (Balloon Sprint)
+===========================
+
+- add '@pypi' tab trigger to expand package names refer to their pypi urls [witsch]
+
 2008-11-14 (Plone Tuneup day #7)
 ================================
 

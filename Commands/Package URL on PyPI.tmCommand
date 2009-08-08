@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+from sys import stdin
+from re import sub
+parts = stdin.read().rsplit(' ', 1)
+pkg = parts[-1]
+pkg = sub(r'\bp\.', 'plone.', pkg)
+pkg = sub(r'\ba\.', 'app.', pkg)
+pkg = sub(r'\bc\.', 'collective.', pkg)
+parts[-1] = '[http://pypi.python.org/pypi/%s %s]' % (pkg, pkg)
+print ' '.join(parts)</string>
+	<key>fallbackInput</key>
+	<string>line</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Package URL on PyPI</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>tabTrigger</key>
+	<string>@pypi</string>
+	<key>uuid</key>
+	<string>F282E0EA-5B83-4CAB-8799-C4440DE0EC70</string>
+</dict>
+</plist>
