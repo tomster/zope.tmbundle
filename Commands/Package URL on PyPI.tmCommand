@@ -6,15 +6,16 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env python
-from sys import stdin
+from sys import stdin, stdout
 from re import sub
 parts = stdin.read().rsplit(' ', 1)
 pkg = parts[-1]
 pkg = sub(r'\bp\.', 'plone.', pkg)
 pkg = sub(r'\ba\.', 'app.', pkg)
 pkg = sub(r'\bc\.', 'collective.', pkg)
+pkg = sub(r'\bP\.', 'Products.', pkg)
 parts[-1] = '[http://pypi.python.org/pypi/%s %s]' % (pkg, pkg)
-print ' '.join(parts)</string>
+stdout.write(' '.join(parts))</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
