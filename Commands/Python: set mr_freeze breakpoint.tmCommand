@@ -27,7 +27,7 @@ if [[ "$url" =~ ^http://[^:]*:([0-9]*)/ ]]; then
   pid=$( lsof -nF -itcp:$port | grep ^p | tr -d p | sort -nr | head -1 )
   lock=$( lsof -F -p $pid | grep '^n.*/instance\.lock$' )
   freeze=$( echo $lock | cut -c2- | sed 's/lock$/freeze/' )
-  path=$( readlink -f "$path" )
+  path=$( readlink "$p" || echo "$p" )
   echo -e "freeze $path $line\npony" &gt; "$freeze"
   echo "set up freeze file at $freeze:"
   cat "$freeze"
